@@ -19,7 +19,7 @@ function validateForm() {
 		messageHolder.innerHTML = "<h2>WARNING: Enter your correct Funny Name!</h2>";
 		funnyName.select();
 		//funnyName.focus();
-		alert("BREACH ATTEMPTED!");
+		console.log("BREACH ATTEMPTED!");
 		return false;
 
 		
