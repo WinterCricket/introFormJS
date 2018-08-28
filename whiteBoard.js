@@ -1,7 +1,7 @@
 
 
 document.getElementById("whiteBoard").onclick=function() {
-	var canvas = document.getElementById("whiteBoard";
+	var canvas = document.getElementById("whiteBoard");
 	var context = canvas.getContext("2d");
 
 	context.lineWidth = 30;
@@ -9,7 +9,7 @@ document.getElementById("whiteBoard").onclick=function() {
 
 	//draw line with standard butt ending
 
-	context.moveTo(25, 50);
+	context.moveTo(25, 50); //horizontal, vertical
 	context.lineTo(400, 50);
 	context.lineCap = "butt";
 	context.stroke();
