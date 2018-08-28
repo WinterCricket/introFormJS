@@ -1,0 +1,18 @@
+#editElement {
+
+	background-color: #eeffee;
+	color: blue;
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+
+}
+
+main {
+	width: 50%;
+	margin: 0 auto;
+}

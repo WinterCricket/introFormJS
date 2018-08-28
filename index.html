@@ -4,13 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Introduction to Forms</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="editStyle.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 </head>
 <body>
-
-
-	<p contenteditable="true" id="target"></p> 
-
+<main>
+	
+	<input type="button" id="startButt" value="Start Edit">
+	<input type="button" id="endButt" value="End Edit">
+	<p id="editElement"></p>
+</main>
+<p contentEditable="true" id="target"></p> 
 	<form name=""  action="https://laureleye.com" method="get"  id="formLog">
 		<span>What's your funny name?</span>
 		<input type="text" id="funnyName" name="funnyName">
@@ -18,6 +22,7 @@
 		<input type="submit" id="submit">
 	</form>
 
-	<script src="formJS.js"></script>
+<script src="formJS.js"></script>
+<script src="editJS.js"></script>
 </body>
 </html>
