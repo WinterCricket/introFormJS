@@ -1,4 +1,4 @@
-#editElement {
+#editElement, #whiteBoard {
 
 	background-color: #eeffee;
 	color: blue;
@@ -12,7 +12,7 @@
 
 }
 
-main {
+main, div {
 	width: 50%;
 	margin: 0 auto;
 }
