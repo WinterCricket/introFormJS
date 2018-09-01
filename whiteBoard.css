@@ -1,5 +1,4 @@
 
-#whiteBoard {
-	
-	border: 1px solid blue;
-	}
+[type=submit] {
+	background: pink;
+}
