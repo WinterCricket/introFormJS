@@ -2,3 +2,7 @@
 [type=submit] {
 	background: pink;
 }
+[type=text] {
+	color: green;
+	font-size: 17px;
+}
