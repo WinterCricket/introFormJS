@@ -7,3 +7,12 @@ p {
 input:hover {
 	background-color: orange;
 }
+#left {
+	float: left;
+}
+#right {
+	float: right;
+}
+#endButt {
+	float: bottom;
+}

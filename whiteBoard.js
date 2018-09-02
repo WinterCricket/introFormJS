@@ -10,7 +10,7 @@ document.getElementById("whiteBoard").onclick=function() {
 	//draw line with standard butt ending
 
 	context.moveTo(25, 50); //horizontal, vertical
-	context.lineTo(400, 150);
+	context.lineTo(200, 150);
 	context.lineCap = "butt";
 	context.stroke();
 
@@ -22,7 +22,7 @@ document.getElementById("whiteBoard").onclick=function() {
 
 	context.beginPath();
 	context.moveTo(25, 120);
-	context.lineTo(400, 120);
+	context.lineTo(200, 120);
 	context.lineCap = "butt";
 	context.stroke();
 }
