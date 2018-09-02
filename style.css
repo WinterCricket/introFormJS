@@ -4,3 +4,6 @@ input {
 p {
 	line-height: 25px;
 }
+input:hover {
+	background-color: orange;
+}
