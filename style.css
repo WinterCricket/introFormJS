@@ -8,11 +8,10 @@ input:hover {
 	background-color: orange;
 }
 #left {
-	float: left;
+	/*float: left;*/
+	z-index: 1;
 }
 #right {
-	float: right;
-}
-#endButt {
-	float: bottom;
+	/*float: right;*/
+	z-index: 2;
 }
